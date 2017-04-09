@@ -1,0 +1,37 @@
+{
+  "name": "aws-signing-utils",
+  "version": "1.0.0",
+  "description": "Utility methods for generating AWS Signature Version 4 URLs. Works fine with react-native!",
+  "main": "lib/index.js",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "faucet": "^0.0.1",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "build": "babel -d lib src",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "aws-sign",
+    "aws-signature-v4",
+    "react-native"
+  ],
+  "author": "Slawek Kolodziej",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
