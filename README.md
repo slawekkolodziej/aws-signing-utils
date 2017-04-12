@@ -17,7 +17,7 @@ const clientUrl = getSignedUrl({
   region: AWSConfig.region,
   secretKey: AWSConfig.secretKey,
   accessKey: AWSConfig.accessKey,
-  sessionKey: AWSConfig.sessionKey,
+  sessionKey: AWSConfig.sessionKey, // you can skip this if you don't use sessionKey
   host: AWSConfig.iotEndpoint,
 });
 
