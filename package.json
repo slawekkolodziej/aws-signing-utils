@@ -1,8 +1,12 @@
 {
   "name": "aws-signing-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility methods for generating AWS Signature Version 4 URLs. Works fine with react-native!",
   "main": "lib/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/slawekkolodziej/aws-signing-utils"
+  },
   "dependencies": {
     "crypto-js": "^3.1.9-1",
     "moment": "^2.18.1"
